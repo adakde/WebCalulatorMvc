@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebCalulatorMvc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e7c7ef24bcf7ed9aa7d9e2a29ed41950c446584")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebCalulatorMvc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebCalulatorMvc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

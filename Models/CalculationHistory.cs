@@ -7,7 +7,7 @@ namespace WebCalulatorMvc.Models
         public int Id { get; set; }
         [MaxLength(50)]
         public string Expression { get; set; }
-        public string Result { get; set; }
+        public double Result { get; set; }
         public DateTime? Date { get; set; }
     }
 }

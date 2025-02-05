@@ -1,0 +1,32 @@
+﻿@model List<CalculationHistory>
+
+<h1>Kalkulator</h1>
+
+<!-- Formularz kalkulatora -->
+<form asp-action="Add" method="post">
+    <input type="number" name="num1" required />
+    <input type="number" name="num2" required />
+    <button type="submit">+</button>
+</form>
+
+<!-- Historia operacji -->
+<h2>Historia</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Data</th>
+            <th>Operacja</th>
+            <th>Wynik</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var entry in Model)
+        {
+            <tr>
+                <td>@entry.Date</td>
+                <td>@entry.Expression</td>
+                <td>@entry.Result</td>
+            </tr>
+        }
+    </tbody>
+</table>
